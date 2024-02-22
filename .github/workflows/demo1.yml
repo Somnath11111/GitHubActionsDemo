@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - run: node --version
+      - run: npm --version
